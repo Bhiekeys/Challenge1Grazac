@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER STYLE */
+header {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    height: 6rem;
+}
+
+.first {
+    border-bottom: 2px solid #5454D4;
+    color: #19191B;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #696871;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+header button {
+    padding: 22px 40px;
+    border-radius: 10px;
+    background: #FF7143;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+/* HEADER STYLE */
+
+
+/* SECTION STYLE */
+.firstsection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.firstImage img{
+    width: 550px;
+    height: auto;
+}
+
+.firstSection h2 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 77px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.firstSection p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #696871;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 30px;
+    padding-right: 155px;
+}
+
+.firstsection button {
+    border-radius: 10px;
+    background: #5454D4;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 30px;
+    padding: 22px 40px;
+    cursor: pointer;
+}
+
+.arrow{
+    position: relative;
+    top: 25px;
+    margin-left: 30px;
+}
+
+/*Second Section*/
+.secondsection , .thirdsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* logo wrapper */
+.logos{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.contents{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 50px;
+}
+
+.text h2{
+    font-size: 50px;
+    line-height: 57px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 30px;
+}
+.text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width:459px;
+    height:90px;
+    margin-bottom: 30px;
+}
+.text a{
+    text-decoration:none;
+}
+.content{
+    text-align: center;
+}
+.content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'DM Sans', sans-serif;
+    color: #696871;
+    text-align: center;
+    margin-top:20px;
+    padding:0 50px;
+
+}
+.content h4{
+    height:36px;
+    font-family: 'DM Sans', sans-serif;
+    font-size:20px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 82px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.plan h2{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+    padding: 0 30px;
+
+}
+
+.btn{
+    margin-left: 244px;
+    display: inline-flex;
+}
+
+.plan button:nth-child(1){
+    background-color: blue;
+    color:#fff;
+    padding: 18px 60px;
+    border:none;
+    border-radius: 8px 0px 0px 8px;
+}
+.plan button:nth-child(2){
+    background-color:#F7F7FB;
+    color:black;
+    padding: 18px 55px;
+    border:none;
+    border-radius: 0px 8px 8px 0px;
+}
+.cards{
+    display: flex;
+    justify-content:center;
+}
+
+.firstcard{
+    background-color:#F8F8F8;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 15px;
+    padding:30px 68px;
+    transition: all 0.6s; 
+}
+.firstcard h2{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 20px;
+}
+.firstcard h2 span{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+}
+.firstcard p{
+     margin-bottom: 22px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 28px;
+    letter-spacing: -0.5627369284629822px;
+    color: #696871;
+}
+.firstcard button{
+    padding: 18px 45px;
+    border-radius: 10px;
+    border:none;
+    background-color: #fff;
+    color:#5454D4;
+    font-weight: 700;
+    font-size: 17px;
+}
+.firstcard:hover{
+    cursor: pointer;
+    background-color: #FF7143;
+    color:white;
+    transform: scale(1.04);
+    margin-left:15px;
+}
+
+.firstcard button:hover{
+    
+    border-radius: 10px;
+    border:none;
+    background-color: #9F3919;
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+
+.card{
+    background-color:#F8F8F8;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 15px;
+    padding:30px 59px;
+    transition: all 0.6s;
+}
+.card h2{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 20px;
+}
+.details{
+    margin-top:30px;
+}
+.card h2 span{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+}
+.card p{
+     margin-bottom: 22px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 28px;
+    letter-spacing: -0.5627369284629822px;
+    color: #696871;
+}
+
+.card button{
+    padding: 18px 45px;
+    border-radius: 10px;
+    border:none;
+    background-color: #fff;
+    color:#5454D4;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.card:hover{
+    cursor: pointer;
+    background-color: #FF7143;
+    color:white;
+    transform: scale(1.04);
+    margin-left:15px;
+}
+
+.card button:hover{
+    
+    border-radius: 10px;
+    border:none;
+    background-color: #9F3919;
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 17px;
+}
+.burger{
+    display :none;
+}
+.hamburger{
+    display: none;
+}
+@media only screen and (max-width:768px){ 
+
+    header {
+        padding-left: 2rem;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    header button {
+        display: none;
+    }
+
+    .burger{
+        display:block;
+        visibility: hidden;
+    }
+    .firstsection, .secondsection, .thirdsection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 2rem;
+        padding-right: 0px;
+        height: 50rem;
+    }
+    .firstImage img, .secondsection img, .thirdsection img{
+        width: 300px;
+    }
+    
+    .firstSection h2, .secondsection h2, .thirdsection h2, .plan h2{
+        font-size: 24px;
+        width: 20rem;
+        line-height: 37px;
+    }
+    .firstSection p, .secondsection p, .thirdsection p, .content {
+        font-weight: 400;
+        font-size: 20px;
+        width: 20rem;
+        margin-top: 15px;
+        padding-right: 0px;
+    }
+    .logos{
+        display: none;
+    }
+    .contents, .cards{
+        display: grid;
+        justify-content: center;
+    } 
+    .content, .card, .firstcard{
+        margin-top: 50px;
+    }
+    
+    .plan{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 30px;
+            margin-bottom: 2px;
+            padding-left:0px;
+            padding-right:0px;
+    }
+    .plan button{
+        display: none;
+    }
+    .firstSection, .secondsection , .thirdsection , .plan{
+        display: grid;
+    } 
+    nav{
+        padding: 0 2rem;
+    }
+    nav ul li{
+        padding: 0 20px;
+    }
+}
+@media only screen and (max-width:675px){
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+    .burger:checked ~ .navbar ul {
+        display: grid;
+        position: absolute;
+        background-color:#fff;
+        width: 100%;
+        height: 15rem;
+        top: 75px;
+        left:0;
+        cursor: pointer;
+        text-align: left;
+    }  
+    
+    .burger:checked ~ .navbar ul li {
+        padding-left: 5px;
+        border: none;
+    }
+
+
+
+}
