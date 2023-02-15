@@ -135,14 +135,17 @@ header button {
     line-height: 30px;
     width:459px;
     height:90px;
-    margin-bottom: 30px;
+    margin-bottom:30px;
 }
+
 .text a{
     text-decoration:none;
 }
+
 .content{
     text-align: center;
 }
+
 .content p{
     font-size: 16px;
     font-weight: 400;
@@ -152,15 +155,14 @@ header button {
     text-align: center;
     margin-top:20px;
     padding:0 50px;
-
 }
+
 .content h4{
     height:36px;
     font-family: 'DM Sans', sans-serif;
     font-size:20px;
     font-weight: 700;
     text-align: center;
-
 }
 
 .plan{
@@ -180,7 +182,6 @@ header button {
     line-height: 70px;
     text-align: left;
     padding: 0 30px;
-
 }
 
 .btn{
@@ -195,6 +196,7 @@ header button {
     border:none;
     border-radius: 8px 0px 0px 8px;
 }
+
 .plan button:nth-child(2){
     background-color:#F7F7FB;
     color:black;
@@ -202,6 +204,7 @@ header button {
     border:none;
     border-radius: 0px 8px 8px 0px;
 }
+
 .cards{
     display: flex;
     justify-content:center;
@@ -215,17 +218,20 @@ header button {
     padding:30px 68px;
     transition: all 0.6s; 
 }
+
 .firstcard h2{
     font-size: 60px;
     font-weight: 700;
     font-family: 'DM Sans', sans-serif;
     margin-bottom: 20px;
 }
+
 .firstcard h2 span{
     font-size: 30px;
     font-weight: 700;
     font-family: 'DM Sans', sans-serif;
 }
+
 .firstcard p{
      margin-bottom: 22px;
     font-family: 'DM Sans', sans-serif;
@@ -235,6 +241,7 @@ header button {
     letter-spacing: -0.5627369284629822px;
     color: #696871;
 }
+
 .firstcard button{
     padding: 18px 45px;
     border-radius: 10px;
@@ -244,6 +251,7 @@ header button {
     font-weight: 700;
     font-size: 17px;
 }
+
 .firstcard:hover{
     cursor: pointer;
     background-color: #FF7143;
@@ -252,8 +260,7 @@ header button {
     margin-left:15px;
 }
 
-.firstcard button:hover{
-    
+.firstcard button:hover{ 
     border-radius: 10px;
     border:none;
     background-color: #9F3919;
@@ -268,23 +275,27 @@ header button {
     border-radius: 10px;
     text-align: center;
     margin-right: 15px;
-    padding:30px 59px;
+    padding:30px 56px;
     transition: all 0.6s;
 }
+
 .card h2{
     font-size: 60px;
     font-weight: 700;
     font-family: 'DM Sans', sans-serif;
     margin-bottom: 20px;
 }
+
 .details{
     margin-top:30px;
 }
+
 .card h2 span{
     font-size: 30px;
     font-weight: 700;
     font-family: 'DM Sans', sans-serif;
 }
+
 .card p{
      margin-bottom: 22px;
     font-family: 'DM Sans', sans-serif;
@@ -314,7 +325,6 @@ header button {
 }
 
 .card button:hover{
-    
     border-radius: 10px;
     border:none;
     background-color: #9F3919;
@@ -322,32 +332,32 @@ header button {
     font-weight: 700;
     font-size: 17px;
 }
+
 .burger{
     display :none;
 }
-.hamburger{
+
+.hamburger, .cancel{
     display: none;
 }
-@media only screen and (max-width:768px){ 
+
+ @media only screen and (max-width:884px){ 
 
     header {
-        padding-left: 2rem;
+        padding-left: 1.5rem;
         padding-right: 0px;
         padding-top: 0px;
     }
 
-    ul {
+    header button, .plan button, ul, .logos {   
         display: none;
     }
 
-    header button {
-        display: none;
-    }
-
-    .burger{
+    .burger, .cancelled{
         display:block;
         visibility: hidden;
     }
+
     .firstsection, .secondsection, .thirdsection {
         display: flex;
         flex-direction: column;
@@ -357,69 +367,73 @@ header button {
         padding-right: 0px;
         height: 50rem;
     }
+
     .firstImage img, .secondsection img, .thirdsection img{
-        width: 300px;
+        width: 270px;
     }
     
     .firstSection h2, .secondsection h2, .thirdsection h2, .plan h2{
         font-size: 24px;
-        width: 20rem;
+        width: 18rem;
         line-height: 37px;
     }
     .firstSection p, .secondsection p, .thirdsection p, .content {
         font-weight: 400;
         font-size: 20px;
-        width: 20rem;
-        margin-top: 15px;
+        width: 18rem;
         padding-right: 0px;
     }
-    .logos{
-        display: none;
+    
+    .firstcard , .card{
+        padding: 20px 40px;
     }
     .contents, .cards{
         display: grid;
         justify-content: center;
     } 
+
     .content, .card, .firstcard{
         margin-top: 50px;
     }
     
     .plan{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 30px;
-            margin-bottom: 2px;
-            padding-left:0px;
-            padding-right:0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 2px;
+        padding-left:0px;
+        padding-right:0px;
     }
-    .plan button{
-        display: none;
-    }
+    
     .firstSection, .secondsection , .thirdsection , .plan{
         display: grid;
     } 
-    nav{
-        padding: 0 2rem;
-    }
-    nav ul li{
-        padding: 0 20px;
-    } 
+   
     .hamburger{
         display: block;
         cursor: pointer;
-        padding-left: 50px;
+        padding-left: 40px;
     }
+    
     .burger:checked ~ .navbar ul {
         display: grid;
         position: absolute;
         background-color:#fff;
-        width: 100%;
+        width: 100vw;
         height: 15rem;
-        top: 75px;
+        top: 80px;
         left:0;
         cursor: pointer;
         text-align: left;
+    }  
+
+    .burger:checked ~ .hamburger{
+        display: none;
+    }   
+
+    .burger:checked ~ .cancel{
+        display: block;
     }   
 
     .burger:checked ~ .navbar ul li a:hover {
@@ -433,8 +447,18 @@ header button {
     }
 
 }
-@media only screen and (min-width:768px){
-    .hamburger{
-        padding-left: 400px;
+/* @media only screen and (min-width:768px){
+    .firstSection, .secondsection , .thirdsection , .cards, .contents{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 37rem;
     } 
-}
+    .firstSection, .secondsection , .thirdsection{
+        justify-content: space-around;
+    }
+
+    .firstcard{
+        padding: 20px 50px;
+    }
+}  */
